@@ -1,0 +1,206 @@
+*{
+    font-family:"Open sans", Helvetica, Arial; 
+}
+.navbar{
+    display: flex;
+    background-color: #040304;
+    opacity: 70%;
+    padding: 0.5rem 10%;
+    height: 3.5rem;
+    position: fixed;
+    width: 85%;
+}
+.navbar-left img{
+    padding-top: 0.5rem;
+}
+.navbar-center{
+    width: 35%;
+}
+.navbar-right{
+    width: 63%;
+}
+.navbar ul{
+    list-style: none;
+}
+.nav-items{
+    display: flex;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #818181;
+}
+.homeButton ,.navbar a:hover{
+    color: white!important;
+}
+.nav-items li{
+    width: 13%;
+    text-align: center;
+    padding: 0.5rem;
+}
+.nav-items .auth{
+    width: 25%;
+    height: 1rem;
+    border: 1px solid #818181;
+}
+.dropdown{
+    width: 22%!important;
+}
+.dropdown-menu{
+    padding-inline-start: 0;
+    background-color: #040304;
+    opacity: 70%;
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu li{
+    width: 100%;
+}
+/* header */
+header{
+    background:#181015 url( ../images/bg_header.jpg) no-repeat; 
+    background-size: cover; 
+    min-height:350px; 
+    text-align: center; 
+    padding-top:15rem; 
+    color:white; 
+    font-family:"Open sans", Helvetica, Arial; 
+    font-weight:100;
+}
+header h1{
+    font-size: 3rem;
+    font-weight: 100;
+}
+header .moreInfo , header .download{
+    width: 15rem;
+    height: 3rem;
+    padding-top: 0.5rem;
+    background: inherit;
+}
+header .moreInfo{
+    border: 3.5px solid #818181 ;
+    color: #818181;
+}
+header .download{
+    background: #FF9B22;
+    border: 3.5px solid #FF9B22 ;
+    color: white;
+}
+/* intro */
+.intro{
+    text-align: center;
+    padding: 5% 10%;
+    font-weight: 100;
+}
+.intro h2{
+    font-weight: 100;
+    font-size: 1.8rem;
+    color:#333333;
+}
+.intro p{
+    color: #888888;
+}
+/* reason section */
+.reasonSection{
+    background-color: #F7F5F4;
+    text-align: center;
+    padding: 1rem 5%;
+    color: #333333;
+    font-weight: 100;
+}
+.reasonSection h3{
+    font-weight: 100;
+    font-size: 1.7rem;
+}
+.reasonSection .reasons{
+    display: flex;
+}
+.reasons article{
+    width: 24%;
+    margin: 2%;
+}
+.reasons article i{
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #382526;
+}
+/* question section */
+.questionSection{
+    padding: 1rem 5%;
+    color: #333333;
+    font-weight: 100;
+}
+.questionSection h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.questionSection h3{
+    font-size: 1.6rem;
+    text-align: left;
+    color:#333333;
+    font-weight: 500;
+}
+.subQuestions{
+    display: flex;
+}
+.subQuestions article{
+    width: 45%;
+    padding: 1%;
+}
+.subQuestions article a{
+    text-decoration: none;
+}
+/* learn more section */
+.learnmore{
+    background-color: #F7F5F4;
+    margin: 1rem 5%;
+    padding: 1rem 3%;
+    color: #333333;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.learnmore div{
+    text-align: right;
+}
+.learnmore button{
+    background: #FF9B22;
+    border: 3.5px solid #FF9B22 ;
+    color: white;
+}
+/* footer */
+footer{
+    background-color: #232323;
+    display: flex;
+    padding: 1rem 5%;
+    margin: 0;
+    color: #999999;
+    font-size: .9rem;
+}
+footer .left{
+    display: flex;
+    width: 45%;
+    margin-right: 3%;
+}
+footer .left .contact{
+    width: 50%;
+}
+footer .left .followMe{
+    width: 45%;
+    margin-left: 5%;
+}
+footer .right{
+    width: 50%;
+}
+footer article h3,a{
+    color: #CCCCCC;
+    text-decoration: none;
+}
+footer article i{
+    font-size: 2rem;
+}
